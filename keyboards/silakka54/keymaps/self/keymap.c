@@ -1,7 +1,15 @@
 // Copyright 2023 QMK
 // SPDX-License-Identifier: GPL-2.0-or-later
-
+#ifdef QMK_KEYBOARD_H
 #include QMK_KEYBOARD_H
+#else
+#include "default_keyboard.h"
+#endif
+
+// #include "quantum_keycodes.h"
+// #include "rgblight.h"
+// #include "color.h"
+// #include "keycodes.h"
 
 enum custom_layers {
     _BASE,

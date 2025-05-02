@@ -1,7 +1,11 @@
 // Copyright 2023 QMK
 // SPDX-License-Identifier: GPL-2.0-or-later
 
+#ifdef QMK_KEYBOARD_H
 #include QMK_KEYBOARD_H
+#else
+#include "default_keyboard.h"
+#endif
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
