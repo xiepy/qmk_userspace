@@ -9,3 +9,4 @@
 #define VIAL_UNLOCK_COMBO_COLS { 0, 1 }
 
 #define MASTER_RIGHT
+#define RGBLIGHT_SLEEP
